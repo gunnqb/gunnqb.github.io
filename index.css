@@ -22,7 +22,7 @@
     margin-left: -10px;
     padding:0px;
     width: 100vw;
-    height: 10vh;
+    height: 7vh;
     position: fixed;
     background-color: var(--text-secondary);
     box-shadow: 0px 10px 18px black;
@@ -34,7 +34,7 @@
     justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+    padding: 0.3vh;
     font-size: 2rem;
     overflow: auto;
 }
@@ -79,7 +79,7 @@ main{
 }
 
 .home-image{
-    margin-top: -10px;
+    margin-top: -2.5vh;
     position: absolute;
     padding-top: 20vh;
     text-align: center;
