@@ -2,7 +2,7 @@
 
 :root{
     font-size: 15px;
-    font-family: 'Open Sans';
+    font-family: 'Verdana';
 
     --text-primary: white;
     --text-secondary: #972b2b;
@@ -73,10 +73,31 @@ main{
 }
 
 .home-image{
+    margin-top: -10px;
+    position: absolute;
     padding-top: 20vh;
     text-align: center;
     width: 100vw;
     height: 50vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/protobowl.PNG');
+    filter: blur(2px);
     box-shadow: inset 0px 1px 20px 1px #000000;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1) ), url('images/kids2.jpg');
+
+}
+
+.home-image-text{
+    margin-top: 10vh;
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.home-content{
+    text-alight: center;
+    width: 100vw;
+    height:200vh;
+    margin-top:75vh;
+    position:absolute;
 }
