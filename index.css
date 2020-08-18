@@ -102,11 +102,24 @@ main{
 }
 
 .home-content{
-    text-alight: center;
+    text-align: center;
     width: 100vw;
     height:100vh;
     margin-top:75vh;
     position:absolute;
+}
+
+.home-content-2{
+    text-align: left;
+    width: 100vw;
+    height:100vh;
+    margin-top:100vh;
+    margin-left: 10vw;
+    position:absolute;
+}
+
+.home-content-2 h1{
+    font-size: 3vw;
 }
 
 footer{
@@ -144,5 +157,5 @@ footer{
 
 .navbar-nav:first-child{
     margin-top: -0.3vh;
-    margin-left:0;
+    margin-left:-10vw;
 }
