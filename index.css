@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 :root{
-    font-size: 15px;
+    font-size: 0.8vw;
     font-family: 'Verdana';
 
     --text-primary: white;
@@ -16,14 +16,16 @@
 
 
 .navbar{
+    z-index: 2;
     top: 0;
     overflow: hidden;
     margin-left: -10px;
     padding:0px;
     width: 100vw;
-    height: 6rem;
-    position: absolute;
+    height: 10vh;
+    position: fixed;
     background-color: var(--text-secondary);
+    box-shadow: 0px 10px 18px black;
 }
 
 
@@ -43,6 +45,10 @@
 
 .nav-link{
     transition: transform 200ms ease;
+}
+
+.link-text{
+    font-size: 2vh;
 }
 
 li a{
@@ -80,7 +86,6 @@ main{
     width: 100vw;
     height: 50vh;
     filter: blur(2px);
-    box-shadow: inset 0px 1px 20px 1px #000000;
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1) ), url('images/kids2.jpg');
 
 }
