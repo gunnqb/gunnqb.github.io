@@ -125,3 +125,17 @@ footer{
     height: 2vh;
     background-color: var(--text-secondary);
 }
+
+.fade-in-onload{
+    animation: fadeIn 2s;
+
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
