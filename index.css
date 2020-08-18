@@ -102,7 +102,26 @@ main{
 .home-content{
     text-alight: center;
     width: 100vw;
-    height:200vh;
+    height:100vh;
     margin-top:75vh;
     position:absolute;
+}
+
+footer{
+    padding: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    margin-top: 100vh;
+    background-color: #444444;
+}
+
+.footer-fess{
+    z-index: 2;
+    width: 100vw;
+    position:absolute;
+    left: 0;
+    height: 2vh;
+    background-color: var(--text-secondary);
 }
