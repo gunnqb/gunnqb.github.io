@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+:root{
+    font-size: 15px;
+    font-family: 'Open Sans';
+
+    --text-primary: white;
+    --text-secondary: #972b2b;
+    --text-final: var(--text-secondary);
+    --background-primary: dark gray;
+    --background-secondary: black;
+    --content-primary: light gray;
+    --transform-speed: 200ms;
+
+}
+
+
+.navbar{
+    top: 0;
+    overflow: hidden;
+    margin-left: -10px;
+    padding:0px;
+    width: 100vw;
+    height: 6rem;
+    position: absolute;
+    background-color: var(--text-secondary);
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 2rem;
+    overflow: auto;
+}
+.nav-item{
+    padding-top: 5px;
+    height: 4rem;
+}
+
+.nav-link{
+    transition: transform 200ms ease;
+}
+
+li a{
+    display: block;
+    color: White;
+    padding: 8px 8px;
+    text-decoration:none;
+
+}
+
+
+a.nav-link:hover {
+    color: darkgrey;
+    transform: scale(1.1);
+}
+
+body{
+    background: white;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    margin: -10px;
+    padding: -10px;
+    margin-top: 6rem;
+    box-shadow: inset 0px 1px 20px 1px #000000;
+}
+
+.home-image{
+    padding-top: 20vh;
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/protobowl.PNG');
+    box-shadow: inset 0px 1px 20px 1px #000000;
+}
