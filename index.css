@@ -19,9 +19,9 @@
     z-index: 2;
     top: 0;
     overflow: hidden;
-    margin-left: -10px;
+    margin-left: -20px;
     padding:0px;
-    width: 100vw;
+    width: 110vw;
     height: 7vh;
     position: fixed;
     background-color: var(--text-secondary);
@@ -85,8 +85,10 @@ main{
     text-align: center;
     width: 100vw;
     height: 50vh;
-    filter: blur(2px);
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1) ), url('images/kids2.jpg');
+    filter: blur(4px);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/gunnhigh.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
 
 }
 
@@ -138,4 +140,9 @@ footer{
     to{
         opacity: 1;
     }
+}
+
+.navbar-nav:first-child{
+    margin-top: -0.3vh;
+    margin-left:0;
 }

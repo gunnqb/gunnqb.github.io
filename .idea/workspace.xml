@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yencis.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -61,7 +61,8 @@
       <updated>1597722093002</updated>
       <workItem from="1597722094335" duration="8180000" />
       <workItem from="1597766739350" duration="629000" />
-      <workItem from="1597768420140" duration="4985000" />
+      <workItem from="1597768420140" duration="5752000" />
+      <workItem from="1597774984990" duration="1260000" />
     </task>
     <servers />
   </component>
