@@ -6,7 +6,7 @@
 
     --text-primary: white;
     --text-secondary: #972b2b;
-    --text-final: var(--text-secondary);
+    --text-final: #4b1313;
     --background-primary: dark gray;
     --background-secondary: black;
     --content-primary: light gray;
@@ -69,7 +69,7 @@ main{
     margin: -10px;
     padding: -10px;
     margin-top: 6rem;
-    box-shadow: inset 0px 1px 20px 1px #000000;
+    text-align: center;
 }
 
 .home-image{
