@@ -105,7 +105,7 @@ main{
     text-align: center;
     width: 100vw;
     height:100vh;
-    margin-top:75vh;
+    margin-top:70vh;
     position:absolute;
 }
 
@@ -113,7 +113,7 @@ main{
     text-align: left;
     width: 100vw;
     height:100vh;
-    margin-top:90vh;
+    margin-top:80vh;
     margin-left: 10vw;
     position:absolute;
 }
@@ -127,9 +127,9 @@ footer{
     left: 0;
     position: absolute;
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
     margin-top: 200vh;
-    background-color: #444444;
+    background-color: #323232;
 }
 
 .footer-fess{
@@ -139,6 +139,14 @@ footer{
     left: 0;
     height: 2vh;
     background-color: var(--text-secondary);
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 16vw;
+    margin-left:2vw;
 }
 
 .fade-in-onload{
