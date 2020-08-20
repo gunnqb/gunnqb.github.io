@@ -169,15 +169,24 @@ footer{
 }
 
 .footer-2{
+    position: absolute;
     margin-left:25vw;
     color: white;
     margin-top:-20vh;
 }
 
 .footer-3{
+    position: absolute;
     margin-left:50vw;
     color: white;
-    margin-top:-17.2vh;
+    margin-top:-20vh;
+}
+
+.footer-4{
+    position:absolute;
+    margin-left:75vw;
+    color: white;
+    margin-top:-20vh;
 }
 
 .footer-contact{
