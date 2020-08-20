@@ -1,0 +1,17 @@
+.home-image{
+    margin-top: -2.5vh;
+    position: absolute;
+    padding-top: 20vh;
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    filter: blur(4px);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/gunn2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+
+}
+
+.home-content{
+    margin-top:-30vh;
+}
