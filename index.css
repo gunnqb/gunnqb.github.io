@@ -175,20 +175,27 @@ footer{
     margin-top:-20vh;
 }
 
-.footer-3{
+.footer-4{
     position: absolute;
-    margin-left:50vw;
+    margin-left:45vw;
     color: white;
     margin-top:-20vh;
 }
 
-.footer-4{
+.footer-3{
     position:absolute;
     margin-left:75vw;
     color: white;
     margin-top:-20vh;
 }
 
+.footer-3 a{
+    color:white
+}
+
+.footer-3 a:hover{
+    color: slategray;
+}
 .footer-contact{
     margin-left:-1vw;
     text-decoration: none;
