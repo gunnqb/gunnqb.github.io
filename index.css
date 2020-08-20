@@ -2,7 +2,7 @@
 
 :root{
     font-size: 0.8vw;
-    font-family: 'Verdana';
+    font-family: 'Segoe UI';
 
     --text-primary: white;
     --text-secondary: #972b2b;
@@ -127,7 +127,7 @@ footer{
     left: 0;
     position: absolute;
     width: 100vw;
-    height: 25vh;
+    height: 30vh;
     margin-top: 200vh;
     background-color: #323232;
 }
@@ -166,4 +166,30 @@ footer{
 .navbar-nav:first-child{
     margin-top: -0.3vh;
     margin-left:-10vw;
+}
+
+.footer-2{
+    margin-left:25vw;
+    color: white;
+    margin-top:-20vh;
+}
+
+.footer-3{
+    margin-left:50vw;
+    color: white;
+    margin-top:-17.2vh;
+}
+
+.footer-contact{
+    margin-left:-1vw;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-item{
+    width:6vw;
+}
+
+.footer-item a:hover{
+    color: slategrey;
 }
