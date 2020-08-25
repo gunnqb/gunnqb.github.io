@@ -190,14 +190,14 @@ footer{
     position: absolute;
     margin-left:45vw;
     color: var(--content-primary);
-    margin-top:-20vh;
+    margin-top:-24.5vh;
 }
 
 .footer-3{
     position:absolute;
     margin-left:75vw;
     color: var(--content-primary);
-    margin-top:-20vh;
+    margin-top:-25vh;
 }
 
 .footer-3 a{
