@@ -55,4 +55,15 @@
     font-size:2vh;
     width:13.25vw;
     height:4vh;
+    font-family: Alata;
+}
+
+@media only screen and (max-width: 1200px){
+    .home-content-2 h1{
+        font-size: 3vh;
+    }
+
+    .home-content-3{
+        margin-top: 20vh;
+    }
 }

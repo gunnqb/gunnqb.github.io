@@ -24,6 +24,7 @@
 }
 
 
+
 .navbar{
     z-index: 2;
     top: 0;
@@ -48,8 +49,10 @@
     overflow: auto;
 }
 .nav-item{
+    z-index:5;
     padding-top: 5px;
-    height: 4rem;
+    height: 6vh;
+    overflow: hidden;
 }
 
 .nav-link{
@@ -146,7 +149,7 @@ footer{
 }
 
 .footer-fess{
-    z-index: 2;
+    z-index: 0;
     width: 100vw;
     position:absolute;
     left: 0;
@@ -223,9 +226,115 @@ footer{
     color: slategrey;
 }
 
+.subtitle{
+    color:var(--text-final);font-size:2.4vw; background: -webkit-linear-gradient(white, var(--text-secondary));-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;text-shadow: 2px 2px white;font-family:alata;margin-top:-5vh
+}
+
+.embedded-video{
+    width: 560px;
+    height: 315px;
+}
+
+.home-content-2 q{
+    font-size:1vw;
+    color:black
+}
+
+.quote{
+    margin-left:10vw;
+}
+
+.google-form-div{
+    margin-left:25vw;margin-top:0vh;width:40vw;height:60vh;overflow:hidden;
+}
+
+.text-wall-1{
+    font-size: 1.5vw;
+}
+
+.text-wall-2{
+    font-size: 1.5vw;
+}
+
 @media only screen and (max-width: 1200px){
     .mobile-only{
         display: block;
+    }
+
+    .home-image{
+        width: 100vw;
+        background-size: 100vw 90vh;
+    }
+    .home-image-text{
+        width:95vw;
+    }
+
+    .home-content{
+        font-size: 0.9vh;
+        padding-bottom: 5vh;
+    }
+
+    .embedded-video{
+        margin-left:-30vw;
+        width: 450px;
+        height: 300px;
+    }
+
+    .home-content-2 q{
+        font-size: 1.4vh;
+    }
+
+    .home-content-2 h1{
+        font-size: 4vh;
+    }
+
+    .quote{
+        margin-left:-10vw;
+    }
+
+    .text-wall-1{
+        width: 80vw;
+        margin-left:-10vw;
+        font-size: 1.7vh;
+    }
+
+    .text-wall-2{
+        width: 80vw;
+        margin-left:-10vw;
+        font-size: 1.7vh;
+    }
+
+    .google-form-div{
+        margin-left:-10vw;margin-top:0vh;width:60vw;height:60vh;
+    }
+
+    .subtitle{
+        font-size: 3vh;
+        padding-top:10vh;
+    }
+
+    footer{
+        margin-top: 180vh;
+    }
+
+    .footer-4{
+        margin-top:-20vh;
+        font-size: 1vh;
+    }
+
+    .footer-3{
+        font-size: 1vh;
+        margin-top: -20vh;
+    }
+
+    .footer-2{
+        font-size: 1vh;
+        margin-top: -18.5vh;
+    }
+
+    .footer-1{
+        font-size: 1vh;
     }
 }
 
@@ -244,3 +353,4 @@ footer{
     background:var(--content-primary);
     position:absolute;
 }
+
