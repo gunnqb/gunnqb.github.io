@@ -134,8 +134,9 @@ main{
 
 footer{
     padding: 0;
-    left: 0;
+    margin-left:0;
     position: absolute;
+    left: 0;
     width: 100vw;
     height: 30vh;
     margin-top: 200vh;
