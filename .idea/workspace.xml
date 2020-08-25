@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yencis.github.io" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="SvnConfiguration">
@@ -64,6 +64,7 @@
       <workItem from="1597768420140" duration="5752000" />
       <workItem from="1597774984990" duration="6005000" />
       <workItem from="1597865052503" duration="13483000" />
+      <workItem from="1598322693376" duration="6655000" />
     </task>
     <servers />
   </component>
@@ -83,10 +84,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1597771960077">
+    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1598326238229">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1597771960077" />
+    <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1598326238229" />
     <state x="681" y="259" key="run.anything.popup" timestamp="1597729189072">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

@@ -17,5 +17,42 @@
 }
 
 .home-content-2{
-    margin-top: 0;
+    margin-top: -10vh;
+}
+
+.home-content-3{
+    margin-top:40vh;
+    margin-left: -10vw;
+    background: var(--text-secondary);
+    width:110vw;
+    height:100vh;
+}
+
+.topic-box{
+    display:flex;
+
+   flex-wrap: wrap;
+    justify-content: space-evenly;
+    background:var(--text-secondary);
+    width:80vw;
+    height:60vh;
+    position:absolute;
+    margin-top: 30vh;
+    margin-left:20vw;
+}
+
+.subject-icon{
+
+    width:12.25vw;
+    height:12.25vw;
+    background-size:cover;
+    filter: invert(100%);
+}
+
+.subject-label{
+    text-align:center;
+    color:white;
+    font-size:2vh;
+    width:13.25vw;
+    height:4vh;
 }

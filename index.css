@@ -1,16 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Alata);
 
 :root{
     font-size: 0.8vw;
     font-family: 'Segoe UI';
-
+    /*
+    Original Gunn Colored Theme
     --text-primary: white;
     --text-secondary: #972b2b;
     --text-final: #4b1313;
     --background-primary: dark gray;
     --background-secondary: black;
-    --content-primary: light gray;
+    --content-primary: white;
+    */
+    --text-primary: white;
+    --text-secondary: #262262;
+    --text-final: #262262;
+    --background-primary: dark gray;
+    --background-secondary: #262262;
+    --content-primary: white;
     --transform-speed: 200ms;
+    color:#262262;
 
 }
 
@@ -48,12 +57,13 @@
 }
 
 .link-text{
+    font-family: Alata;
     font-size: 2vh;
 }
 
 li a{
     display: block;
-    color: White;
+    color: var(--content-primary);
     padding: 8px 8px;
     text-decoration:none;
 
@@ -66,7 +76,7 @@ a.nav-link:hover {
 }
 
 body{
-    background: white;
+    background: var(--content-primary);
 }
 
 main{
@@ -171,26 +181,26 @@ footer{
 .footer-2{
     position: absolute;
     margin-left:25vw;
-    color: white;
+    color: var(--content-primary);
     margin-top:-20vh;
 }
 
 .footer-4{
     position: absolute;
     margin-left:45vw;
-    color: white;
+    color: var(--content-primary);
     margin-top:-20vh;
 }
 
 .footer-3{
     position:absolute;
     margin-left:75vw;
-    color: white;
+    color: var(--content-primary);
     margin-top:-20vh;
 }
 
 .footer-3 a{
-    color:white
+    color:var(--content-primary)
 }
 
 .footer-3 a:hover{
@@ -220,4 +230,14 @@ footer{
     .mobile-only{
         display: none;
     }
+}
+
+.home-content-red-1{
+    z-index:-2;
+    margin-left:-10vw;
+    margin-top:4vh;
+    width: 100vw;
+    height: 106vh;
+    background:var(--content-primary);
+    position:absolute;
 }
