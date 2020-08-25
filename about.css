@@ -110,6 +110,10 @@
     transform: scale(1.1);
 }
 
+footer{
+    margin-top:120vh;
+}
+
 @media only screen and (max-width: 1200px){
     .home-content-2 h1{
         font-size: 3vh;
