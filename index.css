@@ -96,9 +96,9 @@ main{
     width: 100vw;
     height: 50vh;
     filter: blur(4px);
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/gunnhigh.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/schoolsubjects.jpg');
     background-repeat: no-repeat;
-    background-size: 100vw 90vh;
+    background-size: 100vw 200vh;
 
 }
 
@@ -139,7 +139,8 @@ footer{
     width: 100vw;
     height: 30vh;
     margin-top: 200vh;
-    background-color: #323232;
+    /*background-color: #323232;*/
+    background-color: #262262;
 }
 
 .footer-fess{
