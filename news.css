@@ -6,8 +6,12 @@
     width: 100vw;
     height: 50vh;
     filter: blur(4px);
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/puccacalendar.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/calendarwork.jpg');
     background-repeat: no-repeat;
-    background-size: 100vw 90vh;
+    background-size: 100vw 120vh;
 
+}
+
+.calendar{
+    margin-left: 20vw;
 }
