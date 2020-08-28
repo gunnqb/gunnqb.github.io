@@ -1,0 +1,38 @@
+.home-content-2{
+    width: 100vw;
+    margin-left:-10vw;
+}
+
+.member-list{
+    width: 83vw;
+    height: 180vh;
+    margin-top: 30vh;
+    margin-left:40vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.member-image{
+    width:25vw;
+    height: 55vh;
+    background-image: url("images/mark.jpg");
+    background-size: cover;
+}
+
+.member-bio{
+    width:25vw;
+    height:35vh;
+    font-size: 3vh;
+    font-family: Alata;
+    text-align: center;
+}
+
+.member-bio-size-2{
+    width:35vw;
+    height:25vh;
+    font-size: 3vh;
+    font-family: Alata;
+    text-align: center;
+}

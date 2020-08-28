@@ -28,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -66,6 +66,8 @@
       <workItem from="1597865052503" duration="13483000" />
       <workItem from="1598322693376" duration="12579000" />
       <workItem from="1598386903059" duration="16105000" />
+      <workItem from="1598474527244" duration="4660000" />
+      <workItem from="1598571557967" duration="2882000" />
     </task>
     <servers />
   </component>
@@ -89,10 +91,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1598326238229" />
-    <state x="681" y="259" key="run.anything.popup" timestamp="1597729189072">
+    <state x="681" y="259" key="run.anything.popup" timestamp="1598574420594">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="681" y="259" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1597729189072" />
+    <state x="681" y="259" key="run.anything.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1598574420594" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1597774103679">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
