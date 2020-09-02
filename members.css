@@ -3,6 +3,20 @@
     margin-left:-10vw;
 }
 
+.home-image{
+    margin-top: -2.5vh;
+    position: absolute;
+    padding-top: 20vh;
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    filter: blur(4px);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/gunnhigh.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 120vh;
+
+}
+
 .member-list{
     width: 83vw;
     height: 180vh;
