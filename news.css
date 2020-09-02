@@ -4,7 +4,7 @@
     padding-top: 20vh;
     text-align: center;
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
     filter: blur(4px);
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/calendarwork.jpg');
     background-repeat: no-repeat;
@@ -12,10 +12,28 @@
 
 }
 
+.home-content-2{
+    margin-left: 0;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .calendar{
-    margin-left: 20vw;
+    width: 40vw;
+    height: 100vh;
+    position:relative;
+}
+
+.calendar iframe{
+    position: relative;
+    left: 0;
+    width: 40vw;
+    height: 60vh;
 }
 
 footer{
-    margin-top: 120vh;
+    margin-top: 70vh;
 }
+

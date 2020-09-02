@@ -258,7 +258,15 @@ footer{
 }
 
 .google-form-div{
-    margin-left:25vw;margin-top:0vh;width:40vw;height:60vh;overflow:hidden;
+    display: flex;
+    justify-content: center;
+    margin-left: -20vw;
+}
+
+.google-form-div iframe{
+    width: 35vw;
+    height: 50vh;
+
 }
 
 .text-wall-1{
