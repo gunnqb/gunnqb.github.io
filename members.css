@@ -19,11 +19,14 @@
     height: 55vh;
     background-image: url("images/mark.jpg");
     background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    box-shadow: 0px 10px 18px black;
 }
 
 .member-bio{
     width:25vw;
-    height:35vh;
+    height:15vh;
     font-size: 3vh;
     font-family: Alata;
     text-align: center;
@@ -39,4 +42,8 @@
 
 .fade-in-scroll{
     opacity: 0;
+}
+
+footer{
+    margin-top: 220vh;
 }
