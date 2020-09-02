@@ -4,7 +4,7 @@
     padding-top: 20vh;
     text-align: center;
     width: 100vw;
-    height: 50vh;
+    height: 30vh;
     filter: blur(4px);
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/gunn2.jpg');
     background-repeat: no-repeat;
@@ -12,27 +12,33 @@
 
 }
 
+.header{
+    margin-top: -2.5vh;
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    left: -1vh;
+}
+
 .home-content{
-    margin-top:-30vh;
+    margin-top:-0vh;
+}
+main{
+    position: relative;
 }
 
 .home-content-2{
-    margin-top: -18vh;
+    margin-top: 15vh;
 }
 
-.home-content-3{
-    margin-top:40vh;
-    margin-left: -10vw;
-    background: var(--text-secondary);
-    width:110vw;
-    height:100vh;
-}
+
+
 
 .home-content-4{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    margin-top: 20vh;
+    margin-top: 45vh;
     margin-left: -10vw;
     /*left: 0;*/
 
@@ -111,7 +117,7 @@
 }
 
 footer{
-    margin-top:120vh;
+    margin-top:100vh;
 }
 
 @media only screen and (max-width: 1200px){

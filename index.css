@@ -44,14 +44,14 @@
     justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
+    height: 7vh;
     padding: 0.3vh;
     font-size: 2rem;
     overflow: auto;
 }
 .nav-item{
     z-index:5;
-    padding-top: 5px;
-    height: 6vh;
+    height: 7vh;
     overflow: hidden;
 }
 
@@ -93,15 +93,23 @@ main{
     text-align: center;
 }
 
+.header{
+    margin-top: -2.5vh;
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    left: -1vh;
+}
+
 .home-image{
     margin-top: -2.5vh;
     position: absolute;
     padding-top: 20vh;
     text-align: center;
-    left:0;
     width: 104vw;
-    height: 50vh;
+    height: 30vh;
     filter: blur(4px);
+    left:0;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) ), url('images/schoolsubjects.jpg');
     background-repeat: no-repeat;
     background-size: 100vw 200vh;
@@ -109,7 +117,9 @@ main{
 }
 
 .home-image-text{
-    margin-top: 10vh;
+    /*margin-top: 3vh;
+     */
+    top:0;
     position: absolute;
     text-align: center;
     width: 100vw;
@@ -121,7 +131,7 @@ main{
     text-align: center;
     width: 100vw;
     height:100vh;
-    margin-top:70vh;
+    margin-top:5vh;
     position:absolute;
 }
 
@@ -129,7 +139,7 @@ main{
     text-align: left;
     width: 100vw;
     height:100vh;
-    margin-top:80vh;
+    margin-top:20vh;
     margin-left: 10vw;
     position:absolute;
 }
