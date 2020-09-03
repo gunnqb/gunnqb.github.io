@@ -28,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,6 +49,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../yencis.github.io" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jfyen\Documents\gunnqb.github.io" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,6 +76,7 @@
       <workItem from="1598571557967" duration="5611000" />
       <workItem from="1598661682849" duration="1277000" />
       <workItem from="1599012066186" duration="6092000" />
+      <workItem from="1599091585910" duration="546000" />
     </task>
     <servers />
   </component>
