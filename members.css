@@ -42,6 +42,16 @@
     box-shadow: 0px 10px 18px black;
 }
 
+.member-image-size-2{
+    width:35vw;
+    height: 55vh;
+    background-image: url("images/mark.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    box-shadow: 0px 10px 18px black;
+}
+
 .member-bio{
     width:25vw;
     height:15vh;
