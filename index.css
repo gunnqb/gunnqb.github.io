@@ -35,7 +35,7 @@
     height: 7vh;
     position: fixed;
     background-color: var(--text-secondary);
-    box-shadow: 0px 10px 18px black;
+    box-shadow: 0px 6px 18px black;
 }
 
 
@@ -246,6 +246,7 @@ footer{
 .embedded-video{
     width: 560px;
     height: 315px;
+    margin:auto;
 }
 
 .home-content-2 q{
