@@ -29,9 +29,9 @@
     z-index: 2;
     top: 0;
     overflow: hidden;
-    margin-left: -20px;
     padding:0px;
     width: 100vw;
+    left: 0;
     height: 7vh;
     position: fixed;
     background-color: var(--text-secondary);
@@ -40,12 +40,13 @@
 
 
 .navbar-nav {
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
     height: 7vh;
-    padding: 0.3vh;
+    padding-top: 0.3vh;
     font-size: 2rem;
     overflow: auto;
 }
@@ -53,6 +54,7 @@
     z-index:5;
     height: 7vh;
     overflow: hidden;
+
 }
 
 .nav-link{
@@ -155,7 +157,7 @@ footer{
     left: 0;
     width: 100vw;
     height: 30vh;
-    margin-top: 300vh;
+    margin-top: 285vh;
     /*background-color: #323232;*/
     background-color: #262262;
 }
@@ -261,7 +263,7 @@ footer{
 .google-form-div{
     display: flex;
     justify-content: center;
-    margin-left: -20vw;
+    width: 80vw;
 }
 
 .google-form-div iframe{
@@ -328,6 +330,7 @@ footer{
     }
     .home-image-text{
         width:95vw;
+        margin-top: 10vh;
     }
 
     .home-content{
@@ -395,6 +398,27 @@ footer{
 
     .footer-1{
         font-size: 1vh;
+    }
+
+    .topic-box{
+        height: 40vh;
+    }
+
+    .home-content-3{
+        height: 80vh;
+    }
+
+    .google-form-div{
+        width: 100vw;
+    }
+
+    .google-form-div iframe{
+        width: 90vw;
+        left:50%;
+    }
+
+    footer{
+        margin-top: 250vh;
     }
 }
 

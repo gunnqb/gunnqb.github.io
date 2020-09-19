@@ -29,6 +29,7 @@ main{
 
 .home-content-2{
     margin-top: 15vh;
+    margin-left:0;
 }
 
 
@@ -127,5 +128,13 @@ footer{
 
     .home-content-3{
         margin-top: 20vh;
+    }
+
+    .social-descript{
+        font-size: 50px;
+    }
+
+    .social-links{
+        height: 20vh;
     }
 }

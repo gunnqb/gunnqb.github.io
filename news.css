@@ -37,3 +37,8 @@ footer{
     margin-top: 70vh;
 }
 
+@media only screen and (max-width: 1200px){
+    .calendar iframe{
+        width: 40vw;
+    }
+}
