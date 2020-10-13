@@ -32,14 +32,17 @@ main{
     margin-left:0;
 }
 
-
+.home-content-5{
+    margin-top: 80vh;
+    margin-left:-10vw;
+}
 
 
 .home-content-4{
     position: absolute;
     width: 100vw;
     height: 100vh;
-    margin-top: 100vh;
+    margin-top: 10vh;
     margin-left: -10vw;
     /*left: 0;*/
 
@@ -117,8 +120,22 @@ main{
     transform: scale(1.1);
 }
 
+.achievements{
+    display: flex;
+    font-size: 3vh;
+    width: 80vw;
+    height:30vh;
+    margin-left:20vw;
+    justify-content:left;
+}
+.achievements li{
+
+}
+.achievements a{
+    color:blue;
+}
 footer{
-    margin-top:140vh;
+    margin-top:220vh;
 }
 
 @media only screen and (max-width: 1200px){
