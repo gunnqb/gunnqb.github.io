@@ -2,6 +2,10 @@
     font-size:3vw;
 }
 
+.home-content{
+    display: flow;
+}
+
 .links{
     margin-left:2vw;
     font-size:1.5vw;
@@ -9,4 +13,9 @@
 
 h2{
     font-size:2vw;
+}
+
+.links a{
+    display: inline-block;
+    z-index: 100000;
 }
