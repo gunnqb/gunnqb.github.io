@@ -15,5 +15,9 @@ h2{
     font-size:2vw;
 }
 
+.home-content-2{
+    z-index: 3;
+}
+
 .links a{
 }
