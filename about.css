@@ -30,11 +30,14 @@ main{
 .home-content-2{
     margin-top: 15vh;
     margin-left:0;
+    height: 30vh;
+    position: relative;
 }
 
 .home-content-5{
-    margin-top: 80vh;
+    margin-top: 50vh;
     margin-left:-10vw;
+    position: relative;
 }
 
 
