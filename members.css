@@ -53,7 +53,8 @@
 }
 
 .member-bio{
-    width:40vw;
+    margin-top:2vh;
+    width:20vw;
     height:15vh;
     font-size: 3vh;
     font-family: Alata;
@@ -61,6 +62,7 @@
 }
 
 .member-bio-size-2{
+    margin-top:2vh;
     width:35vw;
     height:35vh;
     font-size: 3vh;
